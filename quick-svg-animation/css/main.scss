@@ -1,0 +1,58 @@
+
+.your-own-content {
+  width: 100%;
+  height: auto;
+  margin: 10%;
+}
+
+@keyframes float {
+  0% {transform: translateX(0);}
+  50% {transform: translateY(10px);}
+  100% {transform: translateX(0px);}
+}
+
+@keyframes swayleft {
+  0% {transform: translateX(432px);}
+  50% {transform: translateX(420px);}
+  100% {transform: translateX(432px);}
+}
+
+@keyframes swayright {
+  0% {transform: translateX(0px);}
+  50% {transform: translateX(12px);}
+  100% {transform: translateX(0px);}
+}
+
+@keyframes heart {
+  0% {transform: translateX(430px) translateY(153px) scale(1);}
+  20% {transform: translateX(430px) translateY(153px) scale(1.25);}
+  100% {transform: translateX(430px) translateY(153px) scale(1);}
+}
+
+.stars {
+  animation-name: float;
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+#cloud1 {
+  animation-name: swayright;
+  animation-duration: 4s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+#cloud2 {
+  animation-name: swayleft;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+#heart{
+  animation-name: heart;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
