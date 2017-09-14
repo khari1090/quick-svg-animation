@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}jp{{ end }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+  <title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }} - {{ with .Site.Params.description }} {{ . }} {{ end }}</title>
+  {{ .Hugo.Generator }}
+  {{ with .Site.Params.description }}<meta name="description" content="{{ . }}"> {{ end }}
+
+	{{ template "_internal/google_analytics_async.html" . }}
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,500,800' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Lato:400,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ "css/style.css" | absURL }}">
+</head>

@@ -1,0 +1,11 @@
+{{ partial "head" . }}
+<body>
+  {{ partial "header" . }}
+
+  <div class="wrap">
+  	{{ block "main" . }}{{ end }}
+  </div>
+
+  {{ partial "footer" . }}
+</body>
+</html>

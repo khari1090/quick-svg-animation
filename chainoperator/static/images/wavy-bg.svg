@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1216px" height="445px" viewBox="0 0 1216 445" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>wavy-bg</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="wavy-bg">
+            <path d="M-2.27373675e-13,433.150301 C268.666667,373.159788 460,348.10046 574,357.972316 C745,372.780101 812,412.493879 1026,433.150301 C1168.66667,446.921248 1252.66667,450.871148 1278,445 L1278,512 L-2.27373675e-13,524 L-2.27373675e-13,433.150301 Z" id="Path-4-Copy" fill="#6BD0F7" opacity="0.426913496" transform="translate(639.000000, 439.939956) scale(-1, 1) translate(-639.000000, -439.939956) "></path>
+            <path d="M0,357.127657 C94,317.818907 198,303.10046 312,312.972316 C483,327.780101 550,367.493879 764,388.150301 C906.666667,401.921248 1057.33333,391.580367 1216,357.127657 L1216,524 L0,524 L0,357.127657 Z" id="Path-4" fill="#73D397" opacity="0.814821105"></path>
+            <path d="M-23,376.127657 C71,336.818907 175,322.10046 289,331.972316 C460,346.780101 527,386.493879 741,407.150301 C883.666667,420.921248 1119.66667,410.580367 1449,376.127657 L1449,551 L-23,543 L-23,376.127657 Z" id="Path-4" fill="#2DC061" opacity="0.868206522" transform="translate(713.000000, 440.000000) scale(-1, 1) translate(-713.000000, -440.000000) "></path>
+        </g>
+    </g>
+</svg>

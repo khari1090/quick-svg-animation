@@ -1,0 +1,5 @@
+baseURL = "https://chainoperator.com"
+languageCode = "en-us"
+title = "Chain Operator"
+disqusShortname = "http-chainoperator-com"
+googleAnalytics = "UA-106490218-1"
