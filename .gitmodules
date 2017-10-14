@@ -1,0 +1,3 @@
+[submodule "kiikosite/themes/minimal"]
+	path = kiikosite/themes/minimal
+	url = https://github.com/calintat/minimal.git

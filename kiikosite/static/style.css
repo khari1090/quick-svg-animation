@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+body {
+    text-align: center;
+    font-family: 'Roboto Mono';
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 850px;
+}
+
+.row{
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: 0 auto;
+}
+
+.cell{
+  max-width: 800px;
+}
+
+.pad{
+  padding: 5%;
+}
+
+.well{
+  padding: 3%;
+}
+
+.card{
+  margin: 5% 0px 5% 0px;
+  height: 400px;
+  box-shadow: 0 5px 10px rgba(7, 51, 84, 0.15);
+}
